@@ -141,63 +141,6 @@ body {
   margin: 0 auto;
   padding: 0 .9375rem
 }
-.button {
-  display: inline-flex;
-  padding: 0 0
-}
-.button--fw {
-  width: 100%
-}
-input[type=email],
-input[type=tel],
-input[type=text],
-textarea {
-  -webkit-appearance: none;
-  appearance: none
-}
-.input {
-  border-radius: 0!important;
-  width: 100%;
-  display: block;
-  padding: 0 20px;
-  border: 1px solid #eee;
-  caret-color: inherit
-}
-.input[placeholder]:not([data-placeholder-nohiden])::-webkit-input-placeholder {
-  color: #fff;
-  -webkit-transition: opacity .3s;
-  transition: opacity .3s
-}
-.input[placeholder]:not([data-placeholder-nohiden]):-ms-input-placeholder {
-  color: #fff;
-  -ms-transition: opacity .3s;
-  transition: opacity .3s
-}
-.input[placeholder]:not([data-placeholder-nohiden])::-ms-input-placeholder {
-  color: #fff;
-  -ms-transition: opacity .3s;
-  transition: opacity .3s
-}
-.input[placeholder]:not([data-placeholder-nohiden])::placeholder {
-  color: #fff;
-  transition: opacity .3s
-}
-.input[placeholder]:not([data-placeholder-nohiden]):focus::-webkit-input-placeholder {
-  opacity: 0
-}
-.input[placeholder]:not([data-placeholder-nohiden]):focus:-ms-input-placeholder {
-  opacity: 0
-}
-.input[placeholder]:not([data-placeholder-nohiden]):focus::-ms-input-placeholder {
-  opacity: 0
-}
-.input[placeholder]:not([data-placeholder-nohiden]):focus::placeholder {
-  opacity: 0
-}
-textarea.input {
-  resize: none;
-  padding: 0 0
-}
 .ibg {
   width: 100%;
   height: 100%;
